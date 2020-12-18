@@ -10,8 +10,14 @@
   <pre>
     使用多种方法实现3列布局（float  flex position 等等）
     左边红色div width:100px 右边绿色div width: 150px，中间黄色div 占剩余宽
+    <div id='container'>
+      <div id='left'></div>
+      <div id='right'></div>
+      <div id='middle'></div>
+    </div>
     
-    1.    #middle{
+   <style>
+     #middle{
            background: yellow;
            padding: 0 100px; //这一句一定要加，不然中间列的内容有一部分会被左边的列遮住
           }
@@ -30,7 +36,7 @@
            background: green;
           }
           
-    2.
+
        
         #left{
          float: left;
@@ -47,9 +53,10 @@
    
         }
         
-    3. .container{
+       .container{
           display:flex
         }
+        </style>
   </pre>
 </body>
 </html>
