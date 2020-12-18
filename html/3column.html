@@ -1,62 +1,87 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>3column</title>
 </head>
+<style>
+  .container-1 {
+
+  }
+  #middle {
+    background: yellow;
+    /* 这一句一定要加，不然中间列的内容有一部分会被左边的列遮住 */
+    padding: 0 100px; 
+  }
+
+  #left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    background: red;
+  }
+
+  #right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    background: green;
+  }
+
+
+  #left {
+    float: left;
+    width: 100px;
+    background: red;
+  }
+
+  #right {
+    float: right;
+    width: 100px;
+    background: green;
+  }
+
+  #middle {
+    background: yellow;
+
+  }
+
+  .container {
+    display: flex
+  }
+</style>
+
 <body>
   <pre>
-    使用多种方法实现3列布局（float  flex position 等等）
-    左边红色div width:100px 右边绿色div width: 150px，中间黄色div 占剩余宽
-    <div id='container'>
-      <div id='left'></div>
-      <div id='right'></div>
-      <div id='middle'></div>
-    </div>
-    
-   <style>
-     #middle{
-           background: yellow;
-           padding: 0 100px; //这一句一定要加，不然中间列的内容有一部分会被左边的列遮住
-          }
-          #left{
-           position: absolute;
-           left: 0;
-           top: 0;
-           width: 100px;
-           background: red;
-          }
-          #right{
-           position: absolute;
-           right: 0;
-           top: 0;
-           width: 100px;
-           background: green;
-          }
-          
-
-       
-        #left{
-         float: left;
-         width:100px;
-         background:red;
-        }
-        #right{
-         float: right;
-         width:100px;
-         background:green;
-        }
-        #middle{
-         background: yellow;
-   
-        }
-        
-       .container{
-          display:flex
-        }
-        </style>
+    Q: 使用多种方法实现3列布局（float  flex position 等等）
   </pre>
+
+  <h4 style="text-align: center;">圣杯布局</h4>
+  <div></div>
+
+  <h4 style="text-align: center;">双飞翼布局</h4>
+  <div></div>
+
+  <h4 style="text-align: center;">定位布局</h4>
+  <div></div>
+
+
+  <h4 style="text-align: center;">flex 布局</h4>
+  <div style="display: flex;flex-direction: row;">
+    <div style="width: 200px;background: #00CF90;">
+      我在左边，我在左边，我在左边，我在左边，我在左边，我在左边，我在左边，我在左边，我在左边，我在左边，我在左边，我在左边，我在左边，
+    </div>
+    <div style="flex: 1;background: #F56C6C">
+      我在中间，我在中间，我在中间，我在中间，我在中间，我在中间，我在中间，我在中间，我在中间，我在中间，我在中间，我在中间，我在中间，
+    </div>
+    <div style="width: 150px;background: #67C23A;">
+      我在右边，我在右边，我在右边，我在右边，我在右边，我在右边，我在右边，我在右边，我在右边，我在右边，我在右边，我在右边，我在右边，
+    </div>
+  </div>
 </body>
+
 </html>
