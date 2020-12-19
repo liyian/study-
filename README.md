@@ -1,3 +1,4 @@
+
 #object----------------------
  objects are considered to be instances of a particular reference type.
  深拷贝一个object？
@@ -28,7 +29,7 @@ The benefit of using the prototype is that all of its properties and methods are
  
  
  #promise --------------------
- http://xiamer.top/2019/05/09/Event-deep/  ：大神的宏任务微任务博客
+ http://xiamer.top/2019/05/09/Event-deep/  ：宏任务微任务博客
  
  then： 实例方法  在外部用同步方法获取promise内部的异步方法的结果
   These methods can be used to access data returned from an asynchronous operation, handle success and failure outcomes of the promise, serially evaluate promises, or add functions that only execute once the promise enters a terminal state.
