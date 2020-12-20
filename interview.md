@@ -2,7 +2,7 @@
  * @Author: xiaoguang_10@qq.com
  * @LastEditors: xiaoguang_10@qq.com
  * @Date: 2020-12-19 18:42:23
- * @LastEditTime: 2020-12-20 15:56:46
+ * @LastEditTime: 2020-12-20 15:57:57
 -->
 ## 电面
 
@@ -54,10 +54,7 @@
 1. 输入url都发生了什么？ (进程线程、dns解析、资源加载、dom tree & css tree、回流 重绘、同步 异步、宏任务 微任务)
 2. 你有什么想问我（面试官）的吗？
 
-
-
-
-
 ## 面试准备
+
 * [前端开发面试题github-中文](https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions/Questions-and-Answers)
 * [前端开发面试题github-英文](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
