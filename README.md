@@ -47,5 +47,8 @@ let onRejected = function(e) {
 setTimeout(console.log, 0, 'rejected'); };
 p.catch(onRejected);  打印rejected
 
+
+箭头函数，普通函数区别： 箭头函数是实例化一个函数对象，语法简介适合嵌套函数，比如.map( (i)=>{return i+1} )
+
  
  this 问题 https://juejin.cn/post/6844903511868571656
