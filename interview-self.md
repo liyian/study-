@@ -14,7 +14,7 @@
 #### JS 相关
 
 1. 箭头函数和普通函数区别[参考](https://juejin.cn/post/6844903805960585224)
-2. 怎么实现继承（至少3种，每个的优缺点）[参考1](https://github.com/mqyqingfeng/Blog/issues/16)[参考答案2](https://segmentfault.com/a/1190000015727237)
+2. 怎么实现继承（至少3种，每个的优缺点）[参考1](https://github.com/mqyqingfeng/Blog/issues/16)[参考答案2](https://segmentfault.com/a/1190000015727237)[晓光总结](https://docs.qq.com/doc/DS25VUkxDU0VyeWZk)
 3. 简述一下垃圾回收机制[参考](https://docs.qq.com/doc/DS0JOekxwWHBWT05W)
 4. instanceof 是怎么实现的
 5. 简述你对回流和重绘的理解[参考](https://docs.qq.com/doc/DS0JOekxwWHBWT05W)
@@ -52,3 +52,8 @@
 
 * [前端开发面试题github-中文](https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions/Questions-and-Answers)
 * [前端开发面试题github-英文](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+
+
+
+
+var a = {a: 1}
